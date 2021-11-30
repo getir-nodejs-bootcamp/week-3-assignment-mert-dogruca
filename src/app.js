@@ -7,7 +7,7 @@ const routes = require("./routes/user");
 require("dotenv").config();
 
 app.use(bodyParser.json());
-app.use("/", routes);
+app.use("/api", routes);
 app.use("*", (req, res, next) => {
     logger.info(req.baseUrl);
     next();
