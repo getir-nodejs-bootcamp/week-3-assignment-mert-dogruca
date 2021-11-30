@@ -51,6 +51,22 @@ const db = {
             email: "marshmccall@ultrimax.com",
         },
     ],
+    posts: [
+        {
+            id: 1,
+            topic: "example-topic-1",
+            content:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus orci in elit pharetra, nec gravida arcu efficitur. Cras eleifend in risus nec imperdiet.",
+            owner_id: 2,
+        },
+        {
+            id: 2,
+            topic: "example-topic-2",
+            content:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus orci in elit pharetra, nec gravida arcu efficitur. Cras eleifend in risus nec imperdiet.",
+            owner_id: 1,
+        },
+    ],
 };
 
 module.exports = db;
